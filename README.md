@@ -603,7 +603,7 @@ Este proyecto está bajo la licencia MIT.
 
 ¿Encontraste un bug? ¿Tienes una sugerencia?
 
-- Abre un [Issue](https://github.com/usuario/killa/issues)
+- Abre un [Issue](https://github.com/algarra88/KillaTechTest/issues)
 - Consulta la [Documentación de Django](https://docs.djangoproject.com/)
 - Revisa la [Documentación de Angular](https://angular.io/docs)
 
