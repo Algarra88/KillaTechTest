@@ -587,7 +587,7 @@ Este proyecto está bajo la licencia MIT.
 
 ## 👥 Autores
 
-- **Tu Nombre** - *Trabajo inicial*
+- **Luis Adolfo Algarra Vasquez** - *Trabajo inicial*
 
 ---
 
