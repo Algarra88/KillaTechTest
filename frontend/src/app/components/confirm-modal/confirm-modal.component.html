@@ -1,0 +1,27 @@
+<div class="modal-overlay" *ngIf="isVisible" (click)="onCancel()">
+  <div class="modal-container" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h2>{{ title }}</h2>
+      <button class="close-btn" (click)="onCancel()" aria-label="Close modal">×</button>
+    </div>
+
+    <div class="modal-body">
+      <p>{{ message }}</p>
+    </div>
+
+    <div class="modal-footer">
+      <button 
+        class="btn btn-secondary" 
+        (click)="onCancel()">
+        {{ cancelText }}
+      </button>
+      <button 
+        [class.btn-danger]="isDangerous"
+        [class.btn-primary]="!isDangerous"
+        class="btn"
+        (click)="onConfirm()">
+        {{ confirmText }}
+      </button>
+    </div>
+  </div>
+</div>
